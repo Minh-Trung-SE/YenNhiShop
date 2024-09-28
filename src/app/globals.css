@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Cabin", sans-serif;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #606060;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #909090;
+}
+
+.dark *::-webkit-scrollbar-thumb {
+    background: #aaaaaa;
+}
+
+.dark *::-webkit-scrollbar-thumb:hover {
+    background: #717171;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-sm::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.scrollbar-xs::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
