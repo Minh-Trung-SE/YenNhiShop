@@ -21,7 +21,7 @@ export const LogoSquare: FC<LogoSquareProps> = ({href = "/", className, ...props
                 height={0}
                 loading="eager"
                 className="h-full w-auto"
-                src="/logo.png"
+                src="/static/logo.png"
                 alt="logo"
             />
         </Link>

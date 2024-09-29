@@ -73,19 +73,19 @@ const Products = () => {
                                     id: 1,
                                     name: "Bánh trung thu 150 gram",
                                     price: "100.000đ",
-                                    image: "/assets/products/product (1).png"
+                                    image: "/assets/products/product (2).png"
                                 },
                                 {
                                     id: 2,
                                     name: "Bánh đậu xanh hộp 250 gram",
                                     price: "100.000đ",
-                                    image: "/assets/products/product (2).png"
+                                    image: "/assets/products/product (3).png"
                                 },
                                 {
                                     id: 3,
                                     name: "Bánh trung thu hộp 2 bánh",
                                     price: "100.000đ",
-                                    image: "/assets/products/product (3).png"
+                                    image: "/assets/products/product (1).png"
                                 }
                             ].map(
                                 (product, index) => {
