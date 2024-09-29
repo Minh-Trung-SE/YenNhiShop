@@ -16,8 +16,9 @@ const Certificate = () => {
                     }
                     className="flex-none bg-app-spring rounded-3xl"
                 >
+
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3838.524101169912!2d108.30133227513086!3d15.829028184816218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDQ5JzQ0LjUiTiAxMDjCsDE4JzE0LjEiRQ!5e0!3m2!1sen!2s!4v1727578122209!5m2!1sen!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d7677.048209360734!2d108.301332!3d15.829028!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDQ5JzQ0LjUiTiAxMDjCsDE4JzE0LjEiRQ!5e0!3m2!1svi!2s!4v1727585217869!5m2!1svi!2s"
                         className="w-full h-full rounded-3xl border-none"
                         allowFullScreen={true}
                         loading="lazy"

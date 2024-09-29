@@ -3,7 +3,7 @@ import Container from "@src/components/Container";
 
 const Certificate = () => {
     return (
-        <Container className="space-y-10 py-10">
+        <Container className="space-y-10 py-20">
             <h2 className="font-playfair font-semibold text-app-green-900 text-4xl italic">Hãy ghé thăm chúng tôi nhé!</h2>
 
             <div className='flex justify-between gap-x-5'>
