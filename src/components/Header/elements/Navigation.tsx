@@ -10,6 +10,7 @@ const LINKS = [
     {
         name: "Trang chủ",
         href: "/",
+        exact: true
     },
     {
         name: "Câu chuyện sản phẩm",
@@ -45,7 +46,7 @@ const Navigation = () => {
                                     key={index}
                                     href={link.href}
 
-                                    data-link-active={pathname.startsWith(link.href)}
+                                    data-link-active={link.exact ? pathname === link.href : pathname.startsWith(link.href)}
                                     className="text-app-white-900 p-2.5 hover:text-app-green-500 data-link-active:text-app-green-500"
                                 >
                                     {link.name}
@@ -100,7 +101,7 @@ const Navigation = () => {
                 </div>
             </div>
         </Container>
-)
+    )
 };
 
 export default Navigation;

@@ -22,7 +22,7 @@ const WhyUs = () => {
                     sizes="100vw"
                     height={0}
                     width={446}
-                    className="flex-none h-full rounded-2xl"
+                    className="flex-none h-full"
                 />
                 <div className="h-full flex flex-col grow gap-y-5">
                     <h2 className="font-playfair text-app-green-900 text-2xl font-bold">Khám phá hương vị truyền <br/> thống -  Gói gọn trong từng <br/> chiếc bánh</h2>

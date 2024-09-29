@@ -7,7 +7,7 @@ const config: Config = {
     theme: {
         extend: {
             aspectRatio: {
-                "2/3": "2/3",
+                "9/16": "9/16",
             },
             height: {
                 "150px": "9.375rem",

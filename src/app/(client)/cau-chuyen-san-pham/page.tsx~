@@ -1,6 +1,6 @@
 import Layer from "@src/components/Layer";
-import {Introduction, Story, Contact, Certificate} from "@src/components/Story";
-
+import {Introduction, Story} from "@src/components/Story";
+import Certificate from "@src/components/Story/elements/Certificate";
 
 const HomePage = () => {
 
@@ -19,9 +19,6 @@ const HomePage = () => {
             </section>
             <section>
                 <Certificate/>
-            </section>
-            <section>
-                <Contact/>
             </section>
         </main>
     );

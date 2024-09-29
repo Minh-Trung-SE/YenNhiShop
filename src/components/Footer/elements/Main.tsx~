@@ -12,7 +12,7 @@ const Main: FC<HTMLAttributes<HTMLDivElement>> = ({className = "p-5 rounded spac
             className={className}
             {...props}
         >
-            <div className="py-10 grid grid-cols-3 gap-5">
+            <div className="py-10 grid grid-cols-3 gap-y-5">
 
                 <div className="space-y-5">
                     <h2 className="text-2xl font-medium">Đại chỉ</h2>
@@ -37,10 +37,9 @@ const Main: FC<HTMLAttributes<HTMLDivElement>> = ({className = "p-5 rounded spac
                 <div className="space-y-5">
                     <h2 className="text-2xl font-medium">Theo dõi tại</h2>
                     <div className="text-app-white-900">
-                        <p className="font-light">Shopee</p>
-                        <p className="font-light">Facebook</p>
-                        <p className="font-light">Instagram</p>
-                        <p className="font-light">Youtube</p>
+                        <Link href="https://shopee.vn/thuthuledt" target="_blank" className="font-light hover:text-app-green-500">Shopee</Link>
+                        <Link href="https://www.facebook.com/profile.php?id=100054534306096&locale=vi_VN" target="_blank" className="font-light hover:text-app-green-500">Facebook</Link>
+
                     </div>
 
                 </div>

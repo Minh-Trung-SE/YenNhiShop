@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     title: "Bánh đậu xanh Yến Nhi",
     description: "Bánh đậu xanh Yến Nhi là một đặc sản trứ danh của vùng đất Duy Xuyên - Quảng Nam, nổi tiếng với hương vị thơm ngon, đậm đà. Sản phẩm được làm từ những hạt đậu xanh nguyên chất, kết hợp với gạo nếp và đường, tạo nên một món bánh ngọt giòn tan, mềm mịn, bùi bùi vị đậu xanh.",
     keywords: ["Yến Nhi", "Bánh đậu xanh"],
-    icons: "/assets/logo.png",
+    icons: "/static/logo.png",
     openGraph: {
         title: "Bánh đậu xanh Yến Nhi",
         description: "Bánh đậu xanh Yến Nhi là một đặc sản trứ danh của vùng đất Duy Xuyên - Quảng Nam, nổi tiếng với hương vị thơm ngon, đậm đà. Sản phẩm được làm từ những hạt đậu xanh nguyên chất, kết hợp với gạo nếp và đường, tạo nên một món bánh ngọt giòn tan, mềm mịn, bùi bùi vị đậu xanh.",
         url: process.env.URL,
         type: "website",
-        images: `${process.env.URL}/assets/logo.png`
+        images: `${process.env.URL}/static/logo.png`
     }
 }
 

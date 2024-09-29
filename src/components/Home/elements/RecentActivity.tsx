@@ -28,7 +28,7 @@ const RecentActivity = () => {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-2xl object-cover"
                             />
                         </div>
                         <h2 className="font-bold text-2xl text-app-green-900">Bánh đậu xanh Yến Nhi thay đổi bao bì mới trẻ
@@ -47,7 +47,7 @@ const RecentActivity = () => {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-2xl object-cover"
                             />
                         </div>
                         <h2 className="font-bold text-2xl text-app-green-900">Bánh đậu xanh Yến Nhi thay đổi bao bì mới trẻ
@@ -66,7 +66,7 @@ const RecentActivity = () => {
                                 width={0}
                                 height={0}
                                 sizes="100vw"
-                                className="w-full h-full object-cover"
+                                className="w-full h-full rounded-2xl object-cover"
                             />
                         </div>
                         <h2 className="font-bold text-2xl text-app-green-900">Bánh đậu xanh Yến Nhi thay đổi bao bì mới trẻ
